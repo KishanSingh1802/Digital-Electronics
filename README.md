@@ -21,7 +21,7 @@ Designed a complete hardware modular UART system for serial asynchronous communi
 A loopback testbench (`tb_uart.v`) was used to feed the serialized output directly back into the receiver input. The functional simulation successfully verified end-to-end parallel-to-serial and serial-to-parallel data recovery.
 
 #### Simulation Waveform:
-![UART Simulation Waveform](Projects/Project1_UART_Protocol/UART_Waveform.png)
+![UART Simulation Waveform](Projects/Project1_UART_Protocol/uart_waveform.png)
 
 ---
 
@@ -38,7 +38,7 @@ Developed a Finite State Machine (FSM) controlling a four-way intersection sched
 Behavioral simulation (`tb_traffic_controller.v`) validated that the controller seamlessly sequences states under normal operations and immediately routes priority lanes to green upon receiving an active emergency signal sensor input.
 
 #### Simulation Waveform:
-![Traffic Light Simulation Waveform](Projects/Project2_Traffic_Light_Controller/Traffic_Light_Waveform.png)
+![Traffic Light Simulation Waveform](Projects/Project2_Traffic_Light_Controller/traffic_light_waveform.png)
 
 ---
 
